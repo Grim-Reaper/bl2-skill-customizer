@@ -1,28 +1,8 @@
-import os
+from unrealsdk import FindObject, LoadPackage
+from Mods.ModMenu import SDKMod
 
-from unrealsdk import FindObject, LoadPackage, Log, UObject, UFunction, FStruct
-from Mods.ModMenu import Game, Hook, SDKMod, ModTypes, EnabledSaveType
 
-class SkillCustomizer(SDKMod):
-    Name: str = "Skill Customizer"
-    Description: str = "Customize your skills!"
-    Version: str = "1.0.0"
-    Author: str = "Grim Reader"
-    Types: ModTypes = ModTypes.Gameplay
-    SaveEnabledState: EnabledSaveType = EnabledSaveType.LoadOnMainMenu
-    LocalModDir: str = os.path.dirname(os.path.realpath(__file__))
-
-    def __init__(self, details: dict = None):
-        if details is not None:
-            self.Name = details["Name"]
-            self.Skills = details["Skills"]
-
-    @Hook("WillowGame.PlayerSkillTree.Initialize")
-    def InjectSkills(self, caller: UObject, function: UFunction, params: FStruct) -> bool:
-        Log(f"Loading '{self.Name}' Skill Set")
-        self.LoadTree(params.SkillTreeDef)
-        return True
-
+class SkillManager(SDKMod):
     def PreloadPackages(self) -> None:
         packages = [
             "GD_Assassin_Streaming_SF",
@@ -36,13 +16,13 @@ class SkillCustomizer(SDKMod):
         for package in packages:
             LoadPackage(package)
 
-    def LoadTree(self, SkillTreeDef) -> None:
+    def LoadTree(self, SkillTreeDef, Skills) -> None:
         index = 0
         for Branch in SkillTreeDef.Root.Children:
-            self.LoadBranch(Branch, self.Skills[index])
+            self.LoadBranch(Branch, Skills[index])
             index = index + 1
 
-    def LoadBranch(self, SkillTreeBranchDef, SkillDefinitions) -> None:
+    def LoadBranch(self, SkillTreeBranchDef, Branch) -> None:
         self.PreloadPackages()
         HasBloodlust = False
         HasHellborn = False
@@ -51,7 +31,7 @@ class SkillCustomizer(SDKMod):
             MaxPoints = 0
             NewSkills = []
             for Skill in range(3):
-                SkillDef = self.LoadSkill(SkillDefinitions[Tier][Skill])
+                SkillDef = self.LoadSkill(Branch[Tier][Skill])
                 if SkillDef:
                     TierLayout[Skill] = True
                     MaxPoints += SkillDef.MaxGrade

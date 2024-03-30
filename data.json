@@ -55,6 +55,7 @@
                 ["Followthrough", "BlightPhoenix", "Grenadier"],
                 ["Velocity", "Ruin", "UnstoppableForce"]
             ]
-        ]
+        ],
+        "Active": true
     }
 ]
