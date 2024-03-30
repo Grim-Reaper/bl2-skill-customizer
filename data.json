@@ -1,0 +1,60 @@
+[
+    {
+        "Name": "Default Maya",
+        "Skills": [
+            [
+                ["Ward", null, "Accelerate"],
+                ["Suspension", null, "KineticReflection"],
+                ["Fleet", "Converge", "Inertia"],
+                [null, "Quicken", null],
+                [null, "SubSequence", null],
+                [null, "Thoughtlock", null]
+            ],
+            [
+                ["MindsEye", null, "SweetRelease"],
+                ["Restoration", null, "Wreck"],
+                ["Elated", "Res", "Recompense"],
+                [null, "Sustenance", null],
+                [null, "LifeTap", null],
+                [null, "Scorn", null]
+            ],
+            [
+                ["Flicker", null, "Foresight"],
+                ["Immolate", null, "Helios"],
+                ["ChainReaction", "CloudKill", "Backdraft"],
+                [null, "Reaper", null],
+                [null, "BlightPhoenix", null],
+                [null, "Ruin", null]
+            ]
+        ]
+    },
+    {
+        "Name": "Insane Maya",
+        "Skills": [
+            [
+                ["Ward", "Bore", "Accelerate"],
+                ["Suspension", "DoOrDie", "KineticReflection"],
+                ["Fleet", "Converge", "Inertia"],
+                ["NoKillLikeOverkill", "Quicken", "MoneyShot"],
+                ["BloodyTwitch", "SubSequence", "KillingBlow"],
+                ["ImReadyAlready", "Thoughtlock", "DeathMark"]
+            ],
+            [
+                ["MindsEye", "Bloodsplosion", "SweetRelease"],
+                ["Restoration", "FilledtotheBrim", "Wreck"],
+                ["Elated", "Res", "Recompense"],
+                ["Inconceivable", "Sustenance", "5Shotsor6"],
+                ["Myelin", "LifeTap", "ElectricalBurn"],
+                ["Grit", "Scorn", "Forbearance"]
+            ],
+            [
+                ["Flicker", "CloseEnough", "Foresight"],
+                ["Immolate", "Asbestos", "Helios"],
+                ["ChainReaction", "CloudKill", "Backdraft"],
+                ["OneShotOneKill", "Reaper", "CriticalAscention"],
+                ["Followthrough", "BlightPhoenix", "Grenadier"],
+                ["Velocity", "Ruin", "UnstoppableForce"]
+            ]
+        ]
+    }
+]
