@@ -55,7 +55,122 @@
                 ["Followthrough", "BlightPhoenix", "Grenadier"],
                 ["Velocity", "Ruin", "UnstoppableForce"]
             ]
-        ],
-        "Active": true
+        ]
+    },
+    {
+        "Name": "Default Salvador",
+        "Skills": [
+            [
+                ["LockedandLoaded", null, "QuickDraw"],
+                ["ImYourHuckleberry", null, "AllIneedIsOne"],
+                ["DivergentLikness", "AutoLoader", "MoneyShot"],
+                ["LayWaste", "DownNotOut", null],
+                [null, "KeepItPipingHot", null],
+                [null, "NoKillLikeOverkill", null]
+            ],
+            [
+                ["Inconceivable", null, "FilledtotheBrim"],
+                ["AllInTheReflexes", null, "LastLonger"],
+                ["ImReadyAlready", "SteadyAsSheGoes", "5Shotsor6"],
+                ["YippeeKiYay", "DoubleYourFun", null],
+                [null, "GetSome", null],
+                [null, "KeepFiring", null]
+            ],
+            [
+                ["Diehard", null, "Incite"],
+                ["Asbestos", null, "ImTheJuggernaut"],
+                ["AintGotTimeToBleed", "FistfulOfHurt", "OutOfBubblegum"],
+                ["BusThatCantSlowDown", "JustGotReal", null],
+                [null, "SexualTyrannosaurus", null],
+                [null, "ComeAtMeBro", null]
+            ]
+        ]
+    },
+    {
+        "Name": "Insane Salvador",
+        "Skills": [
+            [
+                ["LockedandLoaded", "Bore", "QuickDraw"],
+                ["ImYourHuckleberry", "CriticalAscention", "AllIneedIsOne"],
+                ["DivergentLikness", "AutoLoader", "MoneyShot"],
+                ["LayWaste", "DownNotOut", "DeathMark"],
+                ["OneShotOneKill", "KeepItPipingHot", "Grenadier"],
+                ["DoOrDie", "NoKillLikeOverkill", "Grit"]
+            ],
+            [
+                ["Inconceivable", "Bloodsplosion", "FilledtotheBrim"],
+                ["AllInTheReflexes", "BoilingBlood", "LastLonger"],
+                ["ImReadyAlready", "SteadyAsSheGoes", "5Shotsor6"],
+                ["YippeeKiYay", "DoubleYourFun", "CrisisManagement"],
+                ["StripTheFlesh", "GetSome", "BloodBath"],
+                ["Expertise", "KeepFiring", "MetalStorm"]
+            ],
+            [
+                ["Diehard", "CloseEnough", "Incite"],
+                ["Asbestos", "CloudKill", "ImTheJuggernaut"],
+                ["AintGotTimeToBleed", "FistfulOfHurt", "OutOfBubblegum"],
+                ["BusThatCantSlowDown", "JustGotReal", "Backdraft"],
+                ["ElectricalBurn", "SexualTyrannosaurus", "KineticReflection"],
+                ["ShockStorm", "ComeAtMeBro", "Fleet"]
+            ]
+        ]
+    },
+    {
+        "Name": "Default Gaige",
+        "Skills": [
+            [
+                ["CloseEnough", null, "CookingUpTrouble"],
+                ["FancyMathematics", "BuckUp", "TheBetterHalf"],
+                ["PotentAsAPony", "UpshotRobot", "UnstoppableForce"],
+                ["ExplosiveClap", "MadeOfSternerStuff", null],
+                [null, "20PercentCooler", null],
+                [null, "SharingIsCaring", null]
+            ],
+            [
+                ["MorePep", null, "Myelin"],
+                ["ShockStorm", "TheStare", "StrengthOfFiveGorillas"],
+                ["ElectricalBurn", "ShockAndAAAGGGHHH", "EvilEnchantress"],
+                ["OneTwoBoom", "WiresDontTalk", null],
+                [null, "InterspersedOutburst", null],
+                [null, "MakeItSparkle", null]
+            ],
+            [
+                ["SmallerLighterFaster", null, "Anarchy"],
+                ["PreshrunkCyberpunk", "RobotRampage", "BloodSoakedShields"],
+                ["AnnoyedAndroid", "Discord", "TypecastIconoclast"],
+                ["RationalAnarchist", "DeathFromAbove", null],
+                [null, "TheNthDegree", null],
+                [null, "WithClaws", null]
+            ]
+        ]
+    },
+    {
+        "Name": "Insane Gaige",
+        "Skills": [
+            [
+                ["CloseEnough", "Bore", "CookingUpTrouble"],
+                ["FancyMathematics", "BuckUp", "TheBetterHalf"],
+                ["PotentAsAPony", "UpshotRobot", "UnstoppableForce"],
+                ["ExplosiveClap", "MadeOfSternerStuff", "DoOrDie"],
+                ["NoKillLikeOverkill", "20PercentCooler", "MoneyShot"],
+                ["BloodyTwitch", "SharingIsCaring", "DeathMark"]
+            ],
+            [
+                ["MorePep", "FilledtotheBrim", "Myelin"],
+                ["ShockStorm", "TheStare", "StrengthOfFiveGorillas"],
+                ["ElectricalBurn", "ShockAndAAAGGGHHH", "EvilEnchantress"],
+                ["OneTwoBoom", "WiresDontTalk", "Grit"],
+                ["Inconceivable", "InterspersedOutburst", "5Shotsor6"],
+                ["MetalStorm", "MakeItSparkle", "Expertise"]
+            ],
+            [
+                ["Grenadier", "Fleet", "Anarchy"],
+                ["PreshrunkCyberpunk", "RobotRampage", "CriticalAscention"],
+                ["AnnoyedAndroid", "Discord", "TypecastIconoclast"],
+                ["RationalAnarchist", "DeathFromAbove", "CloudKill"],
+                ["OneShotOneKill", "TheNthDegree", "Followthrough"],
+                ["Bloodsplosion", "WithClaws", "BoilingBlood"]
+            ]
+        ]
     }
 ]
